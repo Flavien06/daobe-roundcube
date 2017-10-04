@@ -6,6 +6,7 @@
 // @author       Flavien
 // @include      https://mail.ovh.net/roundcube/*
 // @grant        none
+// @downloadURL  https://raw.githubusercontent.com/Flavien06/daobe-roundcube/master/.gitignore/Roubdcube_DAO-BE.js
 // ==/UserScript==
 
 //http://chironflavien.free.fr/DAO-BE/logo-dao-mini.png
