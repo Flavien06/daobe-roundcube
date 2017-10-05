@@ -8,7 +8,7 @@
 // @downloadURL  https://raw.githubusercontent.com/Flavien06/daobe-roundcube/master/Roubdcube_DAO-BE.js
 // ==/UserScript==
 
-//hhttps://raw.githubusercontent.com/Flavien06/daobe-roundcube/master/logo-dao-mini.png
+//https://raw.githubusercontent.com/Flavien06/daobe-roundcube/master/logo-dao-mini.png
 //skins/larry/images/roundcube_logo.png
 
 //https://raw.githubusercontent.com/Flavien06/daobe-roundcube/master/tools-dao3.jpg
