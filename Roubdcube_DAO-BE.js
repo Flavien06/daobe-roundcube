@@ -1,6 +1,5 @@
 // ==UserScript==
 // @name         Rounndcube DAO-BE
-// @namespace    http://tampermonkey.net/
 // @version      0.2
 // @description  OVH Rounndcube DAO-BE Theme
 // @author       Flavien
@@ -9,10 +8,10 @@
 // @downloadURL  https://raw.githubusercontent.com/Flavien06/daobe-roundcube/master/Roubdcube_DAO-BE.js
 // ==/UserScript==
 
-//http://chironflavien.free.fr/DAO-BE/logo-dao-mini.png
+//hhttps://raw.githubusercontent.com/Flavien06/daobe-roundcube/master/logo-dao-mini.png
 //skins/larry/images/roundcube_logo.png
 
-//http://chironflavien.free.fr/DAO-BE/tools-dao3.jpg
+//https://raw.githubusercontent.com/Flavien06/daobe-roundcube/master/tools-dao3.jpg
 //images/watermark.jpg?v=e784.5000
 
 
@@ -22,7 +21,7 @@
 //theImg.src = 'someNewPath'
 
 var myImage = document.getElementById('toplogo');
-myImage.src = "http://chironflavien.free.fr/DAO-BE/logo-dao-mini.png";
+myImage.src = "https://raw.githubusercontent.com/Flavien06/daobe-roundcube/master/logo-dao-mini.png";
 
 ////////////////////////////
 
@@ -34,8 +33,8 @@ myImage.src = "http://chironflavien.free.fr/DAO-BE/logo-dao-mini.png";
 //        len = images.length, img, i;
 //    for (i = 0; i < len; i += 1) {
 //        img = images[i];
-       //img.src = img.src.replace('https://mail.ovh.net/roundcube/skins/larry/images/roundcube_logo.png', 'http://chironflavien.free.fr/DAO-BE/logo-dao-mini.png');
-       //img.src = img.src.replace('https://mail.ovh.net/roundcube/skins/larry/images/watermark.jpg', 'http://chironflavien.free.fr/DAO-BE/tools-dao3.jpg');
+       //img.src = img.src.replace('https://mail.ovh.net/roundcube/skins/larry/images/roundcube_logo.png', 'https://raw.githubusercontent.com/Flavien06/daobe-roundcube/master/logo-dao-mini.png');
+       //img.src = img.src.replace('https://mail.ovh.net/roundcube/skins/larry/images/watermark.jpg', 'https://raw.githubusercontent.com/Flavien06/daobe-roundcube/master/tools-dao3.jpg');
 //    }
 //}
 //setInterval(imgReplace, interval * 1000);
@@ -48,7 +47,7 @@ var images = document.getElementsByTagName("img");
 var x = 0;
 while (x < images.length) {
     if (images[x].src == "images/watermark.jpg") {
-        images[x].src = "http://chironflavien.free.fr/DAO-BE/tools-dao3.jpg";
+        images[x].src = "https://raw.githubusercontent.com/Flavien06/daobe-roundcube/master/tools-dao3.jpg";
     }
     x = x + 1;
 }
@@ -62,7 +61,7 @@ while (x < images.length) {
 window.addEventListener('load', function() {
 var images = document.getElementsByTagName('img');
 for (var i = 0; i < images.length; i++) {
-//images[i].src = images[i].src.replace('images/roundcube_logo.png', 'http://chironflavien.free.fr/DAO-BE/logo-dao-mini.png');
-images[i].src = images[i].src.replace('images/watermark.jpg?v=e784.5000', 'http://chironflavien.free.fr/DAO-BE/tools-dao3.jpg');
+//images[i].src = images[i].src.replace('images/roundcube_logo.png', 'https://raw.githubusercontent.com/Flavien06/daobe-roundcube/master//logo-dao-mini.png');
+images[i].src = images[i].src.replace('images/watermark.jpg?v=e784.5000', 'https://raw.githubusercontent.com/Flavien06/daobe-roundcube/master/tools-dao3.jpg');
 }
 }, false);
